@@ -1,0 +1,28 @@
+from departamento import Departamento
+from empleado import Empleado
+
+e1 = Empleado("Jose", "Administrador", 12000)
+e2 = Empleado("Abel","Sistemas", 10000)
+e3 = Empleado("Marco", "Tecnico supervisor", 14000)
+e4 = Empleado("Rafa", "vendedor", 5000)
+e5 = Empleado("Araceli", "vendedora", 4000)
+
+d1 = Departamento("Ventas", "area de ventas")
+d1.añadir(e1)
+d1.añadir(e2)
+d1.añadir(e3)
+d1.añadir(e4)
+d1.añadir(e5)
+
+d2 = Departamento("plaza 1", "sistemas")
+d2.añadir(e2)
+d2.añadir(e4)
+d2.añadir(e1)
+
+d1.mostrarEmpleados()
+d2.mostrarEmpleados()
+
+d1.cambioSalario("Marco", 15000)
+d2.cambioSalario("Jose", 1000)
+
+print(d1.verificarMismoDepartamento(d2))
