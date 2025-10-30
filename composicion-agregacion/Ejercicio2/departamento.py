@@ -21,6 +21,9 @@ class Departamento:
     
     def añadir(self, Empleado):
         self.__listaEmpleados.append(Empleado)
+    
+    def eliminar(self, empleado):
+        self.__listaEmpleados.remove(empleado)
         
     # def __str__(self):
     #     return f"nombre: {self.__nombre}"
@@ -37,6 +40,8 @@ class Departamento:
                     print("coincidencia encontrada con: ")
                     print(A)
                     break
-    def cambiarDepartamento(self, emp, dep):
-        pass
-    
+    def cambiarDepartamento(self, dep):
+        lista = self.getListaEmps()
+        for valor in lista:
+            dep.añadir(valor)
+            self.eliminar(valor)
