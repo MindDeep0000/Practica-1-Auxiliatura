@@ -6,4 +6,4 @@ class laptop:
         self.bateria = Bateria
 
     def __str__(self):
-        return f"micro: {self.__microprocesador} RAM: {self.__cantRam} hard disk: {self.DiscoDuro}\n{self.bateria}"
+        return f"micro: {self.__microprocesador} RAM: {self.__cantRam} hard disk: {self.discoDuro}\n{self.bateria}"
