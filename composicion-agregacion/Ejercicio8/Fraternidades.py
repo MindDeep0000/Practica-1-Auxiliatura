@@ -16,11 +16,11 @@ class Fraternidad:
             l2 = fr.getIntegrantes()
             listaCorta = min(l1, l2, key=len)
             listaLarga = max(l1, l2, key=len)
+            
             for k in listaCorta:
                 if(k in listaLarga):
-                    print(f"existe {k} en ambas fraternidades")
-        
-            
+                    print(f"<<< existe {k} en ambas fraternidades")
+                    listaLarga.remove(k)
     
     def edadesIntegrantes(self):
         print("*** edades de los integrantes de la fraternidad")
