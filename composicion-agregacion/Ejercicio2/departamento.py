@@ -12,9 +12,9 @@ class Departamento:
     def cambioSalario(self, nombre, nvsalario):
         for emp in self.__listaEmpleados:
             if(emp.getNombre() == nombre):
-                print("El emplado")
+                print("El emplaedo: ")
                 print(emp)
-                print("esta cambiando sueldo a")
+                print("esta cambiando su sueldo a: ")
                 emp.setSalario(nvsalario)
                 print(emp)
                 break
@@ -39,6 +39,7 @@ class Departamento:
                 if(A is B):
                     print("coincidencia encontrada con: ")
                     print(A)
+                    self.__listaEmpleados.remove(A)
                     break
     def cambiarDepartamento(self, dep):
         lista = self.getListaEmps()
