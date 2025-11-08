@@ -1,6 +1,8 @@
 from Fraternidades import Fraternidad
 from Bailarines import Bailarin
 from Facultades import Facultad
+from termcolor import colored
+
 b1 = Bailarin("Juan", 24, "masculino")
 b2 = Bailarin("Jose", 21, "masculino")
 b3 = Bailarin("Marco", 18, "masculino")
@@ -24,19 +26,19 @@ fr2.agregarIntegrante(b4, f2, fr2)
 fr2.agregarIntegrante(b5, f2, fr2)
 fr2.agregarIntegrante(b3, f2, fr2)
 
-print("fraternidad 1")
+print(colored('fraternidad 1', 'blue', 'on_black'))
 fr1.verFraternidad()
 fr1.edadesIntegrantes()
 fr1.verEncargados()
 
-print("fraternidad 2")
+print(colored('fraternidad 2', 'red', 'on_black'))
 fr2.verFraternidad()
 fr2.edadesIntegrantes()
 fr2.verEncargados()
 
 fr1.mismosParticipantes(fr2)
 
-print("fraternidad 1")
+print(colored('fraternidad 1', 'blue', 'on_black'))
 fr1.verFraternidad()
-print("fraternidad 2")
+print(colored('fraternidad 2', 'red', 'on_black'))
 fr2.verFraternidad()
