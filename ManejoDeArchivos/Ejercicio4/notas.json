@@ -1,0 +1,35 @@
+[
+  {
+    "materia": "Matematica",
+    "nota_final": 15.5,
+    "estudiante": {
+      "ru": 1,
+      "nombre": "Ana",
+      "paterno": "Perez",
+      "materno": "Gomez",
+      "edad": 20
+    }
+  },
+  {
+    "materia": "Matematica",
+    "nota_final": 18.0,
+    "estudiante": {
+      "ru": 2,
+      "nombre": "Luis",
+      "paterno": "Garcia",
+      "materno": "Diaz",
+      "edad": 21
+    }
+  },
+  {
+    "materia": "Matematica",
+    "nota_final": 18.0,
+    "estudiante": {
+      "ru": 3,
+      "nombre": "Maria",
+      "paterno": "Lopez",
+      "materno": "Soto",
+      "edad": 19
+    }
+  }
+]

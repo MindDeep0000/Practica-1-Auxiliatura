@@ -1,0 +1,29 @@
+[
+    {
+        "nombre": "Juan",
+        "apellidoPaterno": "Perez",
+        "apellidoMaterno": "Lopez",
+        "ci": "123456",
+        "edad": 10,
+        "peso": 32,
+        "talla": 1.4
+    },
+    {
+        "nombre": "Maria",
+        "apellidoPaterno": "Gomez",
+        "apellidoMaterno": "Diaz",
+        "ci": "654321",
+        "edad": 8,
+        "peso": 25,
+        "talla": 1.3
+    },
+    {
+        "nombre": "Pedro",
+        "apellidoPaterno": "Sanchez",
+        "apellidoMaterno": "Martinez",
+        "ci": "789012",
+        "edad": 12,
+        "peso": 50,
+        "talla": 1.5
+    }
+]
